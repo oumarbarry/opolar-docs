@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^1.1.1",
+    "eslint": "^8.53.0",
+    "vitepress": "^1.0.0-rc.25"
+  }
+}
